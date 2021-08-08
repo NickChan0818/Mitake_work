@@ -39,9 +39,12 @@ module.exports = {
       }
 
       orders.push(insertData)
-      console.log('orders', orders)
 
       res.json(insertData)
     }
+  },
+
+  get_orders: function (req, res) {
+    res.json(orders)
   }
 }
