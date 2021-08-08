@@ -6,6 +6,7 @@
 
 ## Order
 * POST http://localhost:3000/orders
+```
 {
     "UserId": "1",
     "Products": [
@@ -19,3 +20,4 @@
         }
     ]
 }
+```
