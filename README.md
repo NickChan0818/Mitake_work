@@ -5,6 +5,7 @@
 * GET http://localhost:3000/products/1
 
 ## Order
+* GET http://localhost:3000/orders
 * POST http://localhost:3000/orders
 ```
 {
