@@ -1,11 +1,11 @@
 # Mitake_work
 
-Product
-GET http://localhost:3000/products
-GET http://localhost:3000/products/1
+##Product
+*GET http://localhost:3000/products
+*GET http://localhost:3000/products/1
 
-Order
-POST http://localhost:3000/orders
+##Order
+*POST http://localhost:3000/orders
 {
     "UserId": "1",
     "Products": [
